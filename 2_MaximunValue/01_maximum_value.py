@@ -18,8 +18,7 @@ def max_value_of_integer_sequences(arr):
       function or a linear scan for better performance.
 
     Example:
-    >>> scores = [60, 90, 100, 80, 70]
-    >>> max_value_of_integer_sequences(scores)
+    >>> max_value_of_integer_sequences([60, 90, 100, 80, 70])
     100
     """
     length = len(arr)
